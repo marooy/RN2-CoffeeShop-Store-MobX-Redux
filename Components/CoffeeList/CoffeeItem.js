@@ -22,7 +22,7 @@ class CoffeeItem extends Component {
               <Left>
                 <Thumbnail
                   bordered
-                  source={coffeeShop.img}
+                  source={{ uri: coffeeShop.img }}
                   style={styles.thumbnail}
                 />
                 <Text style={styles.text}>{coffeeShop.name}</Text>
